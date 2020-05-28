@@ -16,5 +16,12 @@
         "psr-4": {
             "Jundayw\\LaravelCacheUserProvider\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jundayw\\LaravelCacheUserProvider\\CacheUserProviderServiceProvider"
+            ]
+        }
     }
 }
